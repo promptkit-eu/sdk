@@ -1,0 +1,11 @@
+{
+  "name": "@promptkit/sdk",
+  "version": "0.1.0",
+  "description": "Every AI call through PromptKit: stored prompts, chats with tools and streaming, fallbacks, images and videos. A drop-in for @autonomous-eu/llms.",
+  "license": "MIT",
+  "main": "index.cjs",
+  "types": "index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "import": "./index.mjs", "require": "./index.cjs" } },
+  "files": ["index.cjs", "index.mjs", "index.d.ts", "suggestions.cjs", "README.md"],
+  "engines": { "node": ">=20" }
+}
